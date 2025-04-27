@@ -1,11 +1,11 @@
 <table>
 <tr>
-<th>Способ создания (кратко)</th>
-<th>Полный код</th>
-<th>Иммутабельна?</th>
-<th>Разрешен null key?</th>
-<th>Разрешен null value?</th>
-<th>Сколько элементов?</th>
+<th>Способ создания</th>
+<th>Пример кода</th>
+<th>Immutable</th>
+<th>nullable key</th>
+<th>nullable value</th>
+<th>Ограничение на число элементов</th>
 <th>Ловушки</th>
 <th>Под капотом</th>
 </tr>
