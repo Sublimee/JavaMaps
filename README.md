@@ -206,4 +206,21 @@ Use toUnmodifiableMap(Function, Function, BinaryOperator) to handle merging.</co
 </td>
 </tr>
 
+<tr>
+<td><code>new HashMap(Map<? extends K, ? extends V> m);</code></td>
+<td>
+<pre><code>new HashMap<>(Map.of(KEY1, VALUE1, KEY2, VALUE2));</code></pre>
+</td>
+<td style="text-align:center;">нет</td>
+<td style="text-align:center;">на этапе работы конструктора зависит от <code>m</code>, после — да</td>
+<td style="text-align:center;">на этапе работы конструктора зависит от <code>m</code>, после — да</td>
+<td style="text-align:center;">на этапе работы конструктора зависит от <code>m</code>, после ≥ 0</td>
+<td style="text-align:center;">
+на этапе работы конструктора зависит от <code>m</code>, после — нет
+</td>
+<td style="text-align:center;">
+копируем элементы из <code>m</code>
+</td>
+</tr>
+
 </table>
